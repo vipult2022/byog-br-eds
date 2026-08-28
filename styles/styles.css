@@ -84,6 +84,17 @@ body.appear {
   display: block;
 }
 
+/* Temporary GitLab BYOGit test */
+body::before {
+  content: "GitLab code sync is working";
+  display: block;
+  padding: 10px;
+  color: #000;
+  background: #ffeb3b;
+  text-align: center;
+}
+
+
 header {
   height: var(--nav-height);
 }
